@@ -1,0 +1,39 @@
+.header h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+.header p {
+    font-weight:normal;
+    font-size: 1.5rem;
+    color: white;
+}
+.header {
+    padding: 50px 10px;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.headerDiv{
+    position: relative;
+}
+.headerSearch {
+    position: absolute;
+    max-width: 1100px;
+    width: calc(100% - 10px);
+    left: 50%;
+    transform: translate(-50%, -20px);
+    z-index: 3;
+}
+/* Header.css */
+
+/* Other existing styles */
+
+/* Adjust the hamburger button color */
+.navbar-toggler {
+    border-color: #f8f9fa; /* Light border color */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28248,249,250,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  

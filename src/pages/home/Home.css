@@ -1,0 +1,18 @@
+.backgroundNav{
+    background-color: #003b95;
+}
+.textBlue{
+    color: #003b95;
+    
+}
+@media screen and (max-width: 768px){
+   .navbarBooking {
+    display: flex;
+    justify-content: center;
+   }
+}
+@media screen and (min-width: 768px){
+    .navBarHidden{
+     display: none !important;
+    }
+ }
