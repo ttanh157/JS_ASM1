@@ -16,14 +16,7 @@
 .headerDiv{
     position: relative;
 }
-.headerSearch {
-    position: absolute;
-    max-width: 1100px;
-    width: calc(100% - 10px);
-    left: 50%;
-    transform: translate(-50%, -20px);
-    z-index: 3;
-}
+
 /* Header.css */
 
 /* Other existing styles */
@@ -36,4 +29,13 @@
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28248,249,250,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
-  
+  @media screen and (min-width: 768px){
+    .headerSearch {
+    position: absolute;
+    max-width: 1100px;
+    width: calc(100% - 10px);
+    left: 50%;
+    transform: translate(-50%, -20px);
+    z-index: 3;
+}
+ }

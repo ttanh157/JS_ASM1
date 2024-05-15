@@ -1,0 +1,31 @@
+.homepage{
+
+}
+@media screen and (min-width: 768px){
+    .homepage{
+        margin-top: 80px;
+    }
+}
+.cardHomepage{
+    border-radius: 15px;
+    position: relative;
+}
+.cardHomepage img{
+    border-radius: 15px;
+    width: 100%;
+}
+.cardTitle {
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    left: 5%;
+    text-shadow:
+        2px 2px 0px black, /* Đổ bóng ở phía dưới phải */
+        -2px -2px 0px black, /* Đổ bóng ở phía trên trái */
+        2px -2px 0px black, /* Đổ bóng ở phía trên phải */
+        -2px 2px 0px black, /* Đổ bóng ở phía dưới trái */
+        0px 2px 0px black, /* Đổ bóng ở phía dưới */
+        0px -2px 0px black, /* Đổ bóng ở phía trên */
+        2px 0px 0px black, /* Đổ bóng ở phía phải */
+        -2px 0px 0px black; /* Đổ bóng ở phía trái */
+}
