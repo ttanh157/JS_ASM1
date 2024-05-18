@@ -1,0 +1,30 @@
+.backgroundNav{
+    background-color: #003b95;
+}
+.backgroundNav h1{
+    
+}
+.formInput a {
+background-color: #0071be;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 5px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.formInput input {
+
+      padding: 10px 40px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 0px 5px;
+      border-radius: 15px;
+    }
