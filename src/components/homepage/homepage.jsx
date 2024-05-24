@@ -4,6 +4,7 @@ import CityList from "./CityList";
 import TypeList from "./TypeList";
 import HotelList from "./HotelList";
 import FormRes from "./formRes";
+import Footer from "../footer/Footer";
 
 export default function Homepage() {
   return (
@@ -12,6 +13,7 @@ export default function Homepage() {
       <TypeList />
       <HotelList />
       <FormRes />
+      <Footer />
     </div>
   );
 }

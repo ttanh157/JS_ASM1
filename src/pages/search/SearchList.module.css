@@ -1,0 +1,30 @@
+.searchCard {
+   min-height: 15rem;
+
+}
+
+.searchCardItem {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin: 20px; /* Thêm khoảng cách bên ngoài để các thẻ không bị dính vào nhau */
+    padding: 20px; /* Thêm khoảng cách bên trong để nội dung không bị sát viền */
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.searchCard h5 {
+    color: rgb(3, 66, 202);
+    font-weight: bold;
+}
+.tag {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+   margin: 0px;
+}
+.cardSearchList {
+    width: 100%;
+    height: 100%;
+  }

@@ -1,0 +1,12 @@
+.footerList {
+    color:#19037ef3;
+    padding: 0px 15px;
+    margin: 0px 15px;
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+.footerList a{
+    display: block;
+    text-decoration: none;
+    color:#2804c4f3;
+}

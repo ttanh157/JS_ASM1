@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    background-color: #ffbb38;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container h3 {
+    color: rgb(43, 42, 42);
+    margin: 10px 10px;
+}
+
+.container input {
+    margin: 0 10px;
+}
+
+.container label {
+    margin: 0 10px;
+}
+
+.option label {
+    margin: 0 20px;
+    color: gray;
+}
+
+.optionInput {
+    width: 100%; /* Thay đổi từ 100% sang auto */
+    text-align: end;
+    margin-right: 10px !important;
+
+}
+
+.option {
+    /* Xóa display: inline-block */
+}

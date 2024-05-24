@@ -54,7 +54,7 @@ const HotelList = () => {
               return (
                 <div key={index} className="cardHotel col-md-3 col-12">
                   <img src={item.image_url} alt="hotel_1" />
-                  <a href="#">
+                  <a href="/detail">
                     <h5>{item.name}</h5>
                   </a>
                   <p>{item.city}</p>
